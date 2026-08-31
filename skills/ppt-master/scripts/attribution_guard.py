@@ -35,8 +35,8 @@ _EXACT_METADATA_VALUES = {
     "license": '"MIT"',
     "official_repository": '"https://github.com/hugohe3/ppt-master"',
 }
-_REQUIRED_METADATA_FIELDS = ("sponsors",)
-_REQUIRED_ATTRIBUTION_FILES = ("LICENSE", "SPONSORS.md", "SPONSORS_CN.md")
+_REQUIRED_METADATA_FIELDS = ()
+_REQUIRED_ATTRIBUTION_FILES = ("LICENSE",)
 _LICENSE_DIGEST = "80cefc234c1ec12a8cece4344f16300c634fa03df7891686fcf979e3828f0921"
 _REQUIRED_GATE_FILES = (
     "scripts/console_encoding.py",
