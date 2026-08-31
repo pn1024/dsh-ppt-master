@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Env (real secrets, keep .env.example)
+.env
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Output / build artifacts
+dist/
+build/
+*.log

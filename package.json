@@ -1,0 +1,44 @@
+{
+  "name": "dsh-ppt-master",
+  "version": "6.1.0",
+  "description": "PPT Master skill for DeepSeek Harness: AI-driven presentation workflow for generating editable PPTX decks, SVG snapshots, native template filling, and PPTX enhancement.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "requirements.txt",
+    ".env.example",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "ppt",
+    "pptx",
+    "presentation",
+    "ppt-master",
+    "幻灯片",
+    "演示文稿"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

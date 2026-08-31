@@ -1,0 +1,5 @@
+# dsh-ppt-master bundle: registers the packaged skills/ppt-master SKILL.md
+# on ctx.skills.
+- insert:
+    - id: dsh-ppt-master
+      name: dsh-ppt-master
