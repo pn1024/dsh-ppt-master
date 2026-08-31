@@ -63,4 +63,3 @@ dsh-ppt-master/
 MIT — see [LICENSE](./LICENSE) and the original
 [PPT Master](https://github.com/hugohe3/ppt-master) repository.
 
-> AI生成
