@@ -32,8 +32,19 @@
     "演示文稿"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pn1024/dsh-ppt-master.git"
+  },
+  "homepage": "https://github.com/pn1024/dsh-ppt-master",
+  "bugs": {
+    "url": "https://github.com/pn1024/dsh-ppt-master/issues"
+  },
   "dependencies": {},
   "dsh": {
+    "engines": {
+      "dsh": ">=0.1.1-rc.1"
+    },
     "bundle": {
       "patch": "./cordis.patch.yml"
     }
